@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding:0;
+  }
+  img{
+    width: 100%;
+  }
+  
+  .custom-text h2 {
+    font-size:1.5rem;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  /*
+  ####################################################
+  M E D I A  Q U E R I E S
+  ####################################################
+  ::::::::::::::::::::::::::::::::::::::::::::::::::::
+  Bootstrap 4 breakpoints
+  */
+  /* Small devices (landscape phones, 544px and up) */
+  /* @media (min-width: 544px) {  
+    h1 {font-size:1.5rem;} 
+  } */
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    .custom-text h2 {
+      font-size:2.5rem;
+      font-family: 'Dancing Script', cursive;
+    } 
+  }
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+    .custom-text h2 {
+      font-size:3rem;
+    } 
+  }
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+    .custom-text h2 {
+      font-size:3.5rem;
+    }    
+  }
+  
+  
